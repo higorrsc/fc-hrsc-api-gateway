@@ -1,0 +1,6 @@
+### POST to create a new bet
+POST http://localhost:80/api/bets
+Host: bets-app.com.br
+Content-Type: application/json
+
+{}
