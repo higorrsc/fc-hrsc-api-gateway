@@ -4,3 +4,11 @@ Host: bets-app.com.br
 Content-Type: application/json
 
 {}
+
+### POST to create a new bet with user authorization
+POST http://localhost:80/api/bets
+Host: bets-app.com.br
+Authorization: Basic aGlnb3Jyc2M6YWRtaW4=
+Content-Type: application/json
+
+{}
