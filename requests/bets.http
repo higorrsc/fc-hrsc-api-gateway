@@ -12,3 +12,20 @@ Authorization: Basic aGlnb3Jyc2M6YWRtaW4=
 Content-Type: application/json
 
 {}
+
+### POST to create a new bet with api key (app-bets)
+POST http://localhost:80/api/bets
+Host: bets-app.com.br
+apiKey: tmFoGPv1M7Bsx0yNKYf5YN3G1OeSfroF
+Content-Type: application/json
+
+{}
+
+### POST to create a new bet with api key (app-random-bets)
+POST http://localhost:80/api/bets
+Host: bets-app.com.br
+apiKey: U2oENcetZy0NmSqT6P1Kpb2VOK8iGlpr
+Content-Type: application/json
+
+{}
+
