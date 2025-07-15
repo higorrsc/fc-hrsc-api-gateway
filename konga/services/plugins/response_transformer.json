@@ -1,0 +1,37 @@
+{
+  "id": "c52a0f3c-4889-4546-9cff-4d692999fd4a",
+  "created_at": 1752537897,
+  "consumer": null,
+  "name": "response-transformer",
+  "config": {
+    "remove": {
+      "json": [],
+      "headers": []
+    },
+    "append": {
+      "json_types": [],
+      "headers": [],
+      "json": []
+    },
+    "add": {
+      "json_types": [],
+      "headers": ["api:bets"],
+      "json": ["proxied:by_kong"]
+    },
+    "replace": {
+      "json_types": [],
+      "headers": [],
+      "json": []
+    },
+    "rename": {
+      "headers": []
+    }
+  },
+  "enabled": true,
+  "route": null,
+  "tags": null,
+  "service": {
+    "id": "93e9bf75-71c3-4e96-a59c-fdc098a251df"
+  },
+  "protocols": ["grpc", "grpcs", "http", "https"]
+}

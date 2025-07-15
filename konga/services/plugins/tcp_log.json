@@ -1,0 +1,22 @@
+{
+  "id": "e9df93d2-631b-4de5-999d-d89dab58198c",
+  "created_at": 1752539345,
+  "consumer": null,
+  "name": "tcp-log",
+  "config": {
+    "host": "fluent-bit",
+    "keepalive": 60000,
+    "tls_sni": null,
+    "timeout": 10000,
+    "custom_fields_by_lua": null,
+    "tls": false,
+    "port": 5170
+  },
+  "enabled": true,
+  "route": null,
+  "tags": null,
+  "service": {
+    "id": "93e9bf75-71c3-4e96-a59c-fdc098a251df"
+  },
+  "protocols": ["grpc", "grpcs", "http", "https"]
+}

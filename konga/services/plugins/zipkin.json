@@ -1,0 +1,25 @@
+{
+  "id": "8f75844f-985c-4a65-9724-39327ef8c11c",
+  "created_at": 1752539959,
+  "consumer": null,
+  "name": "zipkin",
+  "config": {
+    "static_tags": null,
+    "tags_header": "Zipkin-Tags",
+    "include_credential": true,
+    "sample_ratio": 1,
+    "traceid_byte_count": 16,
+    "default_header_type": "b3",
+    "http_endpoint": "http://jaeger:9411/api/v2/spans",
+    "header_type": "preserve",
+    "default_service_name": null,
+    "local_service_name": "kong"
+  },
+  "enabled": true,
+  "route": null,
+  "tags": null,
+  "service": {
+    "id": "93e9bf75-71c3-4e96-a59c-fdc098a251df"
+  },
+  "protocols": ["grpc", "grpcs", "http", "https"]
+}

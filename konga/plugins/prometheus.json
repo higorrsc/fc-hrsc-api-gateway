@@ -1,0 +1,14 @@
+{
+  "id": "10cacc4f-2771-4c2c-83c7-7a8786c27de0",
+  "created_at": 1752537234,
+  "consumer": null,
+  "name": "prometheus",
+  "config": {
+    "per_consumer": false
+  },
+  "enabled": true,
+  "route": null,
+  "tags": null,
+  "service": null,
+  "protocols": ["grpc", "grpcs", "http", "https"]
+}

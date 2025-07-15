@@ -1,0 +1,25 @@
+{
+  "id": "8774b900-ff79-4b66-863a-168a8be467f7",
+  "request_buffering": true,
+  "response_buffering": true,
+  "created_at": 1752537588,
+  "updated_at": 1752537588,
+  "https_redirect_status_code": 426,
+  "preserve_host": false,
+  "regex_priority": 0,
+  "hosts": ["bets-app.com.br"],
+  "service": {
+    "id": "93e9bf75-71c3-4e96-a59c-fdc098a251df"
+  },
+  "path_handling": "v1",
+  "strip_path": true,
+  "name": "create_bet",
+  "headers": null,
+  "protocols": ["http", "https"],
+  "sources": null,
+  "snis": null,
+  "paths": null,
+  "methods": null,
+  "tags": ["time-bets"],
+  "destinations": null
+}

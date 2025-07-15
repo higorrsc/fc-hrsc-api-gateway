@@ -1,0 +1,30 @@
+{
+  "id": "93e9bf75-71c3-4e96-a59c-fdc098a251df",
+  "retries": 5,
+  "created_at": 1752537514,
+  "updated_at": 1752537514,
+  "port": 9999,
+  "client_certificate": null,
+  "enabled": true,
+  "connect_timeout": 2000,
+  "read_timeout": 2000,
+  "name": "bets",
+  "protocol": "http",
+  "host": "bets",
+  "tls_verify": null,
+  "path": null,
+  "write_timeout": 2000,
+  "tls_verify_depth": null,
+  "tags": ["time-bets"],
+  "ca_certificates": null,
+  "extras": {
+    "createdUser": null,
+    "updatedUser": null,
+    "kong_node_id": "1",
+    "service_id": "93e9bf75-71c3-4e96-a59c-fdc098a251df",
+    "description": "Serviço de Apostas",
+    "createdAt": "2025-07-14T23:58:34.423Z",
+    "updatedAt": "2025-07-14T23:58:34.423Z",
+    "id": 2
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "f5622933-c08b-4c4d-99d5-6951b57f3bd8",
+  "created_at": 1752537084,
+  "consumer": null,
+  "name": "correlation-id",
+  "config": {
+    "generator": "uuid",
+    "header_name": "Request-ID",
+    "echo_downstream": false
+  },
+  "enabled": true,
+  "route": null,
+  "tags": null,
+  "service": null,
+  "protocols": ["grpc", "grpcs", "http", "https"]
+}

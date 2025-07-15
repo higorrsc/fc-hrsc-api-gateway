@@ -1,0 +1,36 @@
+{
+  "id": "5d966718-4a6a-449b-aebf-643562555bc2",
+  "created_at": 1752537862,
+  "consumer": null,
+  "name": "rate-limiting",
+  "config": {
+    "redis_database": 0,
+    "redis_host": null,
+    "redis_port": 6379,
+    "second": null,
+    "minute": 5,
+    "hour": null,
+    "day": null,
+    "month": null,
+    "year": null,
+    "limit_by": "consumer",
+    "hide_client_headers": false,
+    "policy": "local",
+    "header_name": null,
+    "fault_tolerant": true,
+    "redis_password": null,
+    "path": null,
+    "redis_username": null,
+    "redis_timeout": 2000,
+    "redis_ssl": false,
+    "redis_ssl_verify": false,
+    "redis_server_name": null
+  },
+  "enabled": true,
+  "route": null,
+  "tags": null,
+  "service": {
+    "id": "93e9bf75-71c3-4e96-a59c-fdc098a251df"
+  },
+  "protocols": ["grpc", "grpcs", "http", "https"]
+}
